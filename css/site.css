@@ -1,0 +1,109 @@
+body {
+    color: #ccc;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 3000px;
+  }
+  
+  
+  #stage1{
+    height:350px;
+    width: 100%;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+  #stage2{
+    height:700px;
+    width: 100%;
+    background: #234e5f;
+    display: flex;
+    justify-content: center;
+    
+  
+  }
+  #stage3{
+    padding-top:200px ;
+    height:700px;
+    width: 100%;
+    background: #234fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  #stage4{
+    
+    height:700px;
+    width: 100%;
+    background: #98cce4;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  
+
+  .spacer{
+    width:100%;
+    height:50vh;
+    background:#5386b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scrumPaper {
+    background-color: #8b6c4c;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+  }
+
+  .bag{
+    background-color: #8b6c4c;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 3;
+  }
+  
+  #paperFloating{
+    background-color: #751032;
+    height: 110px;
+    width: 70px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -206px;
+  }
+  
+  #building{
+    background-color: #91a85c;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 400px;
+    margin-left: -600px;
+  }
+
+  #box{
+    display: block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: #C80000; 
+    border-radius: 10px;
+  }
+
+  svg {
+    display: block;
+    margin: 20px auto;
+    width:800px;
+  }
+
+  #motionPath{
+      display: none;
+  }
